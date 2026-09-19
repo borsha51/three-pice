@@ -1,7 +1,7 @@
 services:
   - type: web
     name: three-pice
-    runtime: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
     pullRequestPreviewsEnabled: true
