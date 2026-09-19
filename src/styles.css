@@ -114,3 +114,7 @@ form{display:grid;gap:10px;margin-top:15px}form input,form select,form textarea{
  .modal{grid-template-columns:1fr}.modalPhoto,.modalPhoto img{min-height:300px;height:300px}.modalCopy{padding:25px}.modalBtns{display:grid}.adminGrid{grid-template-columns:1fr}
 }
 @media(max-width:390px){.brand{min-width:100px;font-size:17px}.navActions>button{padding:6px}.hero h1{font-size:50px}.pieces{gap:4px}.pieceIcon{width:55px;height:55px}.pieces>strong{font-size:14px}.pieces b{font-size:7px}.products{grid-template-columns:1fr 1fr}}
+
+.socialIcons a{width:auto;min-width:36px;height:36px;padding:0 12px 0 10px;border-radius:20px;display:flex;align-items:center;gap:7px}
+.socialIcons a span{font-size:8px;letter-spacing:.03em}
+@media(max-width:760px){.socialIcons a{min-width:36px;padding:0 10px}.socialIcons a span{font-size:8px}}
