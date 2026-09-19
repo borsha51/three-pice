@@ -1,12 +1,12 @@
 const PRODUCTS=[
-  ['Noor Garden',2890,'Lavender','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_01.webp'],
-  ['Meher Olive',2490,'Deep Teal','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_02.webp'],
-  ['Ayla Rose',2690,'Royal Blue','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_01.webp'],
-  ['Zara Noir',3790,'Midnight','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_02.webp'],
-  ['Raina Sand',2290,'Sand','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_01.webp'],
-  ['Lina Pearl',3490,'Pearl','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_02.webp'],
-  ['Hana Blue',2590,'Blue','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_01.webp'],
-  ['Safa Plum',3890,'Plum','https://orcasta.sgp1.cdn.digitaloceanspaces.com/product/salwar_kameez_nilanjona_sp_02.webp']
+  ['Noor Garden',2890,'Lavender','https://mcprod.aarong.com/media/catalog/product/1/4/1420000189286.jpg'],
+  ['Meher Olive',2490,'Deep Teal','https://static-01.daraz.com.bd/p/2ee8b860c240a4d742e0c5263a1e09f0.png'],
+  ['Ayla Rose',2690,'Royal Blue','https://nilima.com.bd/cdn/shop/files/IMS-6650-_1.jpg?v=1741688420'],
+  ['Zara Noir',3790,'Midnight','https://img.drz.lazcdn.com/static/bd/p/5a6337085f7891372b8a6d95ca1b8dc5.jpgstyle%3Dwidth%3A1600px%3Bheight%3A2400px%3Bdisplay%3Ainline%3Bvertical-align%3Amiddle_960x960q80.jpg_.webp'],
+  ['Raina Sand',2290,'Sand','https://mcprod.aarong.com/media/catalog/product/1/4/1420000189286.jpg'],
+  ['Lina Pearl',3490,'Pearl','https://static-01.daraz.com.bd/p/2ee8b860c240a4d742e0c5263a1e09f0.png'],
+  ['Hana Blue',2590,'Blue','https://nilima.com.bd/cdn/shop/files/IMS-6650-_1.jpg?v=1741688420'],
+  ['Safa Plum',3890,'Plum','https://img.drz.lazcdn.com/static/bd/p/5a6337085f7891372b8a6d95ca1b8dc5.jpgstyle%3Dwidth%3A1600px%3Bheight%3A2400px%3Bdisplay%3Ainline%3Bvertical-align%3Amiddle_960x960q80.jpg_.webp']
 ].map((x,i)=>({id:i+1,name:x[0],price:x[1],tone:x[2],img:x[3],cat:'Three Piece'}));
 
 const SOCIAL={
