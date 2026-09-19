@@ -48,7 +48,7 @@ svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.55;strok
 .under{font-size:9px;text-decoration:underline;text-underline-offset:5px}
 .pieces{display:flex;align-items:center;justify-content:space-between}
 .pieces div{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;min-width:100px}
-.pieces span{width:62px;height:62px;border-radius:50%;background:#eeebe5;display:grid;place-items:center;font-size:29px;color:#171716}
+.pieces span{width:62px;height:62px;border-radius:50%;background:#eeebe5;display:grid;place-items:center;color:#171716}.pieces span svg{width:34px;height:34px;stroke-width:1.35}
 .pieces b{font-size:8px;font-weight:500}
 .pieces small{font-size:7px;color:var(--muted)}
 .pieces>strong{font-size:10px;font-weight:400;margin-top:-17px}
@@ -139,7 +139,7 @@ textarea{min-height:100px}
   .collection h2{font-size:34px}
   .pieces{gap:3px}
   .pieces div{min-width:88px}
-  .pieces span{width:55px;height:55px}
+  .pieces span{width:55px;height:55px}.pieces span svg{width:31px;height:31px}
   .shop{padding:10px 14px 45px;margin:0}
   .sectionHead h2{font-size:29px}
   .products{gap:20px 9px}
