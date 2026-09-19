@@ -1,0 +1,2 @@
+# Optional future backend/API. Keep blank for static deployment.
+VITE_API_BASE_URL=
