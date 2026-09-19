@@ -34,7 +34,7 @@ const money=n=>'৳'+n.toLocaleString('en-BD');
 const save=()=>{localStorage.mbnCart=JSON.stringify(cart);localStorage.mbnWish=JSON.stringify(wish)};
 
 function img(p,cls=''){
- return '<img class="'+cls+'" src="'+p.img+'" alt="'+p.name+' Three Piece set" loading="lazy" onerror="this.parentElement.classList.add(\\'fallback\\');this.remove()">';
+ return '<img class="'+cls+'" src="'+p.img+'" alt="'+p.name+' Three Piece set" loading="lazy" onerror="this.parentElement.classList.add(\'fallback\');this.remove()">';
 }
 function card(p){
  return '<article class="product" data-id="'+p.id+'"><div class="productMedia">'+img(p)+'<span class="tag">Three Piece</span><button class="wish" data-wish="'+p.id+'" aria-label="Save '+p.name+'">'+(wish.includes(p.id)?'♥':'♡')+'</button></div><div class="productInfo"><div><h3>'+p.name+'</h3><p>Three Piece · '+p.tone+'</p></div><strong>'+money(p.price)+'</strong></div><button class="orderBtn" data-order="'+p.id+'">Order this set <span>→</span></button></article>';
