@@ -27,7 +27,7 @@ svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke
 .primary{background:var(--ink);color:#fff}.secondary{background:transparent;color:var(--ink)}
 .primary:hover,.secondary:hover{transform:translateY(-1px)}
 .primary span,.textLink span{margin-left:9px}
-.heroPhoto{min-height:610px;background:url("https://mcprod.aarong.com/media/catalog/product/1/4/1420000189286.jpg") center/cover no-repeat;position:relative}
+.heroPhoto{min-height:610px;background:none;position:relative}
 .heroPhoto:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0000,#00000008)}
 .heroCaption{position:absolute;right:9%;top:28%;border-left:1px solid #fff;padding-left:14px;color:#fff;font-size:9px;line-height:2.1;letter-spacing:.2em;z-index:1}
 .collection{max-width:1450px;margin:auto;padding:78px 6%;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
@@ -119,10 +119,10 @@ form{display:grid;gap:10px;margin-top:15px}form input,form select,form textarea{
 .socialIcons a span{font-size:8px;letter-spacing:.03em}
 @media(max-width:760px){.socialIcons a{min-width:36px;padding:0 10px}.socialIcons a span{font-size:8px}}
 
-/* Exact screenshot-style hero banner override */
+/* Reference-matched hero banner: use the supplied lavender three-piece reference image; no alternate model image */
 .hero{display:block;position:relative;min-height:510px;background:
 linear-gradient(90deg,rgba(224,198,174,.94) 0%,rgba(224,198,174,.72) 34%,rgba(224,198,174,.08) 70%),
-url("https://www.nameerabyfarooq.com/cdn/shop/files/NewPakistaniSalwarSuitDupattaEmbroideredLilacSalwarKameez_1080x.jpg?v=1689071511") center/cover no-repeat;overflow:hidden}
+url("https://www.nameerabyfarooq.com/cdn/shop/files/NewPakistaniSalwarSuitDupattaEmbroideredLilacSalwarKameez_1080x.jpg?v=1689071511") 68% center/cover no-repeat;overflow:hidden}
 .heroCopy{position:relative;z-index:2;width:52%;min-height:510px;padding:70px 0 70px 8%;display:flex;flex-direction:column;justify-content:center}
 .hero h1{font-size:clamp(56px,6.2vw,88px);line-height:.92;margin:18px 0 22px}
 .heroCopy>p:not(.eyebrow){font-size:13px;line-height:1.7;color:#3f3932;margin:0 0 27px}
